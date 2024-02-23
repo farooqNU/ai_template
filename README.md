@@ -128,5 +128,32 @@ Performance Measure: Height cleared, technique execution
 Actuators: Athlete's body for running, jumping, and executing the high jump.
 Sensors: Eyes for judging the height of the bar, hands to hold bar, ears to listen to whistle .
 ## Q5
-Write your answer to question 5 here ....
+**There exist task environments in which no pure reflex agent can behave rationally.**
+
+True. Pure reflex agents operate based on current perceptual input without considering past experiences or future consequences. In complex environments
+with non-deterministic outcomes or delayed effects, pure reflex agents may fail to behave optimally, such as a chess game.
+
+**There exists a task environment in which every agent is rational.**
+
+False. Rationality depends on the agent's ability to select actions that maximize its expected usage given its knowledge and beliefs about the environment.
+In some task environments with uncertainty or conflicting objectives, no agent may be able to consistently make optimal decisions.
+For example, in a stock market, no algorithm can actually 100% be right.
+
+**Every agent function is implementable by some program/machine combination.**
+
+True. An agent function defines everything, specifying how an agent should behave in response to its observations.
+As long as the agent function can be expressed correctly using algos, it can be implemented by some program running on a compatible computing device. 
+However, the efficiency and practicality of the implementation may vary depending on the complexity of the agent function and the capabilities of the hardware.
+
+**An agent that senses only partial information about the state cannot be perfectly rational.**
+
+True. In order to get perfect rationality you need to know everything about the environment without complete data the agent may make inaccurate decisions. 
+For example, a self-driving car that can only detect objects in its immediate surrounding may not be able to anticipate obstacles further down the road, leading 
+to potentially unsafe decisions.
+
+**It is possible for a given agent to be perfectly rational in two distinct task environments.**
+
+True. PErfect rationality would be the ability to make perfect decisions regardless of the environemnt, as long as the data is complete. If an agent has the necessary capabiliites,
+it can indeed make rational decisions, in two distinct environments.For example, a chess-playing AI that employs the same optimal strategy regardless of the opponent's skill level
+or playing style would be considered perfectly rational in all chess environments.
 
